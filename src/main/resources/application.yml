@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://open-learn-db.chmox9hefcfl.us-east-1.rds.amazonaws.com/open-learn
+    username: admin
+    password: seawolf99
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
