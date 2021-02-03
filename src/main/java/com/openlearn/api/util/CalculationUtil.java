@@ -21,6 +21,6 @@ public class CalculationUtil {
                     Period.between(date, LocalDate.now()).getYears()
             );
         }
-        return null;
+        return Optional.empty();
     }
 }

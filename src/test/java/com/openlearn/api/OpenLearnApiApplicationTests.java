@@ -9,5 +9,4 @@ class OpenLearnApiApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
